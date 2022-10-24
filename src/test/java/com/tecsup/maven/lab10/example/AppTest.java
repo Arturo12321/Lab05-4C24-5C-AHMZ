@@ -22,5 +22,9 @@ public class AppTest
     	App app = new App();		
 		assertEquals(1 , app.restar(4, 3));		
 	}
+    public void testDividir() {
+    	App app = new App();		
+		assertEquals(1 , app.dividir(16, 2));		
+	}
 
 }
