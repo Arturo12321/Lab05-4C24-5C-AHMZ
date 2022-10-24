@@ -22,9 +22,15 @@ public class AppTest
     	App app = new App();		
 		assertEquals(1 , app.restar(4, 3));		
 	}
+    @Test
     public void testDividir() {
     	App app = new App();		
 		assertEquals(1 , app.dividir(16, 2));		
+	}
+    @Test
+    public void testMultiplicar() {
+    	App app = new App();		
+		assertEquals(1 , app.multiplicar(16, 2));		
 	}
 
 }
